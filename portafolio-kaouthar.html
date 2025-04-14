@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Kaouthar Kalaoui</title>
+  <style>
+    body {
+      font-family: serif, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #ded4d4;
+    }
+
+    header, section, footer {
+      padding: 20px;
+    }
+
+    header {
+      background-color: #900d60;
+      color: white;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: rgb(220, 227, 7);
+      text-decoration: none;
+    }
+
+    section {
+      margin: 20px;
+    }
+
+    footer {
+      background-color: #6666eedd;
+      color: rgb(191, 29, 126);
+      text-align: center;
+    }
+
+    /* Diseño responsivo */
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+
+    /* Flexbox opcional */
+    .secciones {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .seccion {
+      flex: 1 1 300px;
+      background-color: #905e08;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kaouthar Kalaoui</h1>
+    <p>Portafolio Personal</p>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="secciones">
+    <section id="sobre-mi" class="seccion">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Kaouthar Kalaoui, de origen marroquí y actualmente resido en España. Soy graduada en Formación Profesional de Grado Superior de Asistencia a la Dirección.</p>
+    </section>
+
+    <section id="proyectos" class="seccion">
+      <h2>Proyectos</h2>
+      <p>Actualmente estoy muy emocionada por aprender desarrollo web y seguir creciendo en este campo.</p>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <h2>Contacto</h2>
+      <p>para una comunicación más fácil, Pueden contactarme por teléfono al número: 0034012345610 o por correo electrónico a: kaouthar@contacto.com.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 have a nice days</p>
+  </footer>
+
+</body>
+</html>
